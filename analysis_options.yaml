@@ -1,0 +1,8 @@
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - windows/**
+    - lib/l10n/app_localizations*.dart
+    - packages/gym_components/widgetbook/**
+include: package:flutter_lints/flutter.yaml

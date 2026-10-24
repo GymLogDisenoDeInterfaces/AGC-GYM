@@ -1,0 +1,49 @@
+name: gymlog
+description: agc-gym, diario de entrenamiento manos libres (Diseño de Interfaces, DAM).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  # Base de datos
+  sqflite: ^2.4.1
+  sqflite_common_ffi: ^2.3.4
+  path: ^1.9.0
+
+  # Navegación y estado
+  go_router: ^14.6.0
+  provider: ^6.1.2
+
+  # Gráficas
+  fl_chart: ^0.69.2
+
+  # Interfaz natural (RA2)
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.2.0
+  camera: ^0.11.0
+  google_mlkit_pose_detection: any
+  google_mlkit_commons: any
+  permission_handler: ^11.3.1
+
+  # Componentes propios (RA3)
+  gym_components:
+    path: packages/gym_components
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
