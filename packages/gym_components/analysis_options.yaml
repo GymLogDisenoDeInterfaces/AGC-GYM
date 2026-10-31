@@ -1,0 +1,9 @@
+analyzer:
+  exclude:
+    - build/**
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # RA3.f: toda la API pública debe llevar comentario ///
+    public_member_api_docs: true
