@@ -1,0 +1,689 @@
+{
+  "@@locale": "es",
+  "appTitle": "AGC GYM",
+  "@appTitle": {
+    "description": "appTitle"
+  },
+  "navHome": "Inicio",
+  "@navHome": {
+    "description": "navHome"
+  },
+  "navRoutines": "Rutinas",
+  "@navRoutines": {
+    "description": "navRoutines"
+  },
+  "navExercises": "Ejercicios",
+  "@navExercises": {
+    "description": "navExercises"
+  },
+  "navHistory": "Historial",
+  "@navHistory": {
+    "description": "navHistory"
+  },
+  "navStats": "Estadísticas",
+  "@navStats": {
+    "description": "navStats"
+  },
+  "settings": "Ajustes",
+  "@settings": {
+    "description": "settings"
+  },
+  "cancel": "Cancelar",
+  "@cancel": {
+    "description": "cancel"
+  },
+  "save": "Guardar",
+  "@save": {
+    "description": "save"
+  },
+  "delete": "Eliminar",
+  "@delete": {
+    "description": "delete"
+  },
+  "create": "Crear",
+  "@create": {
+    "description": "create"
+  },
+  "undo": "Deshacer",
+  "@undo": {
+    "description": "undo"
+  },
+  "finish": "Terminar",
+  "@finish": {
+    "description": "finish"
+  },
+  "close": "Cerrar",
+  "@close": {
+    "description": "close"
+  },
+  "newLabel": "Nuevo",
+  "@newLabel": {
+    "description": "newLabel"
+  },
+  "nSets": "{count, plural, =0{Sin series} =1{1 serie} other{{count} series}}",
+  "@nSets": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "description": "nSets"
+  },
+  "nExercises": "{count, plural, =0{Sin ejercicios} =1{1 ejercicio} other{{count} ejercicios}}",
+  "@nExercises": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "description": "nExercises"
+  },
+  "sessionDate": "{fecha}",
+  "@sessionDate": {
+    "placeholders": {
+      "fecha": {
+        "type": "DateTime",
+        "format": "yMMMMEEEEd"
+      }
+    },
+    "description": "sessionDate"
+  },
+  "minutesShort": "{minutes} min",
+  "@minutesShort": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    },
+    "description": "minutesShort"
+  },
+  "repsUnit": "reps",
+  "@repsUnit": {
+    "description": "repsUnit"
+  },
+  "setSubtitle": "{reps} reps × {kg} kg",
+  "@setSubtitle": {
+    "placeholders": {
+      "reps": {
+        "type": "int"
+      },
+      "kg": {
+        "type": "String"
+      }
+    },
+    "description": "setSubtitle"
+  },
+  "editTooltip": "Editar",
+  "@editTooltip": {
+    "description": "editTooltip"
+  },
+  "originManual": "Manual",
+  "@originManual": {
+    "description": "originManual"
+  },
+  "originVoice": "Voz",
+  "@originVoice": {
+    "description": "originVoice"
+  },
+  "originPose": "Pose",
+  "@originPose": {
+    "description": "originPose"
+  },
+  "last7Days": "Últimos 7 días",
+  "@last7Days": {
+    "description": "last7Days"
+  },
+  "sessionsLabel": "sesiones",
+  "@sessionsLabel": {
+    "description": "sessionsLabel"
+  },
+  "volumeLabel": "volumen",
+  "@volumeLabel": {
+    "description": "volumeLabel"
+  },
+  "startSession": "Empezar sesión",
+  "@startSession": {
+    "description": "startSession"
+  },
+  "lastWorkout": "Último entreno",
+  "@lastWorkout": {
+    "description": "lastWorkout"
+  },
+  "noWorkoutsYet": "Todavía no has registrado ningún entreno.",
+  "@noWorkoutsYet": {
+    "description": "noWorkoutsYet"
+  },
+  "searchExercise": "Buscar ejercicio",
+  "@searchExercise": {
+    "description": "searchExercise"
+  },
+  "allGroups": "Todos",
+  "@allGroups": {
+    "description": "allGroups"
+  },
+  "noExercisesFilter": "No hay ejercicios con ese filtro.",
+  "@noExercisesFilter": {
+    "description": "noExercisesFilter"
+  },
+  "newExercise": "Nuevo ejercicio",
+  "@newExercise": {
+    "description": "newExercise"
+  },
+  "editExercise": "Editar ejercicio",
+  "@editExercise": {
+    "description": "editExercise"
+  },
+  "nameLabel": "Nombre",
+  "@nameLabel": {
+    "description": "nameLabel"
+  },
+  "muscleGroupLabel": "Grupo muscular",
+  "@muscleGroupLabel": {
+    "description": "muscleGroupLabel"
+  },
+  "nameRequired": "El nombre es obligatorio",
+  "@nameRequired": {
+    "description": "nameRequired"
+  },
+  "chooseGroup": "Elige un grupo",
+  "@chooseGroup": {
+    "description": "chooseGroup"
+  },
+  "deleteExerciseTitle": "Eliminar ejercicio",
+  "@deleteExerciseTitle": {
+    "description": "deleteExerciseTitle"
+  },
+  "deleteExerciseQuestion": "¿Eliminar \"{name}\"?",
+  "@deleteExerciseQuestion": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    },
+    "description": "deleteExerciseQuestion"
+  },
+  "errExerciseDuplicate": "Ya existe un ejercicio con ese nombre",
+  "@errExerciseDuplicate": {
+    "description": "errExerciseDuplicate"
+  },
+  "errExerciseInUse": "No se puede borrar: el ejercicio tiene series registradas",
+  "@errExerciseInUse": {
+    "description": "errExerciseInUse"
+  },
+  "errSaveExercise": "No se pudo guardar el ejercicio",
+  "@errSaveExercise": {
+    "description": "errSaveExercise"
+  },
+  "errDeleteExercise": "No se pudo borrar el ejercicio",
+  "@errDeleteExercise": {
+    "description": "errDeleteExercise"
+  },
+  "groupChest": "Pecho",
+  "@groupChest": {
+    "description": "groupChest"
+  },
+  "groupBack": "Espalda",
+  "@groupBack": {
+    "description": "groupBack"
+  },
+  "groupLegs": "Pierna",
+  "@groupLegs": {
+    "description": "groupLegs"
+  },
+  "groupShoulders": "Hombro",
+  "@groupShoulders": {
+    "description": "groupShoulders"
+  },
+  "groupArms": "Brazo",
+  "@groupArms": {
+    "description": "groupArms"
+  },
+  "groupCore": "Core",
+  "@groupCore": {
+    "description": "groupCore"
+  },
+  "noRoutines": "Aún no tienes rutinas.\nCrea la primera con \"Nueva\".",
+  "@noRoutines": {
+    "description": "noRoutines"
+  },
+  "newRoutine": "Nueva rutina",
+  "@newRoutine": {
+    "description": "newRoutine"
+  },
+  "routineNameRequired": "El nombre es obligatorio",
+  "@routineNameRequired": {
+    "description": "routineNameRequired"
+  },
+  "chooseAtLeastOne": "Elige al menos un ejercicio",
+  "@chooseAtLeastOne": {
+    "description": "chooseAtLeastOne"
+  },
+  "routineFallbackTitle": "Rutina",
+  "@routineFallbackTitle": {
+    "description": "routineFallbackTitle"
+  },
+  "deleteRoutineTitle": "Eliminar rutina",
+  "@deleteRoutineTitle": {
+    "description": "deleteRoutineTitle"
+  },
+  "deleteRoutineQuestion": "¿Eliminar \"{name}\"?",
+  "@deleteRoutineQuestion": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    },
+    "description": "deleteRoutineQuestion"
+  },
+  "startWithRoutine": "Empezar con esta rutina",
+  "@startWithRoutine": {
+    "description": "startWithRoutine"
+  },
+  "routineNotFound": "No se encontró la rutina.",
+  "@routineNotFound": {
+    "description": "routineNotFound"
+  },
+  "sessionInProgress": "Sesión en curso",
+  "@sessionInProgress": {
+    "description": "sessionInProgress"
+  },
+  "addSet": "Añadir serie",
+  "@addSet": {
+    "description": "addSet"
+  },
+  "newSet": "Nueva serie",
+  "@newSet": {
+    "description": "newSet"
+  },
+  "editSet": "Editar serie",
+  "@editSet": {
+    "description": "editSet"
+  },
+  "exerciseLabel": "Ejercicio",
+  "@exerciseLabel": {
+    "description": "exerciseLabel"
+  },
+  "repsLabel": "Repeticiones",
+  "@repsLabel": {
+    "description": "repsLabel"
+  },
+  "weightLabel": "Peso (kg)",
+  "@weightLabel": {
+    "description": "weightLabel"
+  },
+  "chooseExercise": "Elige un ejercicio",
+  "@chooseExercise": {
+    "description": "chooseExercise"
+  },
+  "repsInvalid": "Introduce un número mayor que 0",
+  "@repsInvalid": {
+    "description": "repsInvalid"
+  },
+  "weightInvalid": "Introduce un peso (0 si es sin carga)",
+  "@weightInvalid": {
+    "description": "weightInvalid"
+  },
+  "createExerciseFirst": "Crea antes algún ejercicio en el catálogo",
+  "@createExerciseFirst": {
+    "description": "createExerciseFirst"
+  },
+  "setDeleted": "Serie eliminada",
+  "@setDeleted": {
+    "description": "setDeleted"
+  },
+  "sessionSaved": "Sesión guardada",
+  "@sessionSaved": {
+    "description": "sessionSaved"
+  },
+  "emptySessionDiscarded": "Sesión vacía descartada",
+  "@emptySessionDiscarded": {
+    "description": "emptySessionDiscarded"
+  },
+  "sessionNotFound": "No se encontró la sesión.",
+  "@sessionNotFound": {
+    "description": "sessionNotFound"
+  },
+  "noSetsYet": "Aún no hay series.\nPulsa \"Añadir serie\" o Ctrl+N.",
+  "@noSetsYet": {
+    "description": "noSetsYet"
+  },
+  "sessionRepsGoal": "Repeticiones de la sesión",
+  "@sessionRepsGoal": {
+    "description": "sessionRepsGoal"
+  },
+  "sessionGoalReached": "¡Objetivo de repeticiones alcanzado!",
+  "@sessionGoalReached": {
+    "description": "sessionGoalReached"
+  },
+  "openPoseCounter": "Contador por pose",
+  "@openPoseCounter": {
+    "description": "openPoseCounter"
+  },
+  "shortcutsHint": "Atajos: Ctrl+N nueva serie · Espacio +1 repetición",
+  "@shortcutsHint": {
+    "description": "shortcutsHint"
+  },
+  "voiceTapToSpeak": "Toca el micrófono y habla",
+  "@voiceTapToSpeak": {
+    "description": "voiceTapToSpeak"
+  },
+  "voiceHint": "Di, por ejemplo: «añade tres series de sentadilla con sesenta kilos»",
+  "@voiceHint": {
+    "description": "voiceHint"
+  },
+  "voiceListening": "Escuchando…",
+  "@voiceListening": {
+    "description": "voiceListening"
+  },
+  "voiceProcessing": "Procesando…",
+  "@voiceProcessing": {
+    "description": "voiceProcessing"
+  },
+  "voiceMicTooltip": "Hablar",
+  "@voiceMicTooltip": {
+    "description": "voiceMicTooltip"
+  },
+  "voiceStopTooltip": "Dejar de escuchar",
+  "@voiceStopTooltip": {
+    "description": "voiceStopTooltip"
+  },
+  "voiceUnavailable": "La voz solo está disponible en Android e iOS",
+  "@voiceUnavailable": {
+    "description": "voiceUnavailable"
+  },
+  "voiceNoPermission": "Hace falta el permiso del micrófono",
+  "@voiceNoPermission": {
+    "description": "voiceNoPermission"
+  },
+  "voiceNotReady": "No se pudo iniciar el reconocimiento de voz",
+  "@voiceNotReady": {
+    "description": "voiceNotReady"
+  },
+  "poseTitle": "Contador por pose",
+  "@poseTitle": {
+    "description": "poseTitle"
+  },
+  "poseStart": "Empezar",
+  "@poseStart": {
+    "description": "poseStart"
+  },
+  "poseStop": "Parar",
+  "@poseStop": {
+    "description": "poseStop"
+  },
+  "poseSave": "Guardar serie",
+  "@poseSave": {
+    "description": "poseSave"
+  },
+  "poseReset": "Reiniciar",
+  "@poseReset": {
+    "description": "poseReset"
+  },
+  "poseGoalLabel": "Objetivo",
+  "@poseGoalLabel": {
+    "description": "poseGoalLabel"
+  },
+  "poseWeightLabel": "Peso (kg)",
+  "@poseWeightLabel": {
+    "description": "poseWeightLabel"
+  },
+  "poseIncomplete": "Sentadilla incompleta",
+  "@poseIncomplete": {
+    "description": "poseIncomplete"
+  },
+  "poseGoalReached": "¡Objetivo alcanzado!",
+  "@poseGoalReached": {
+    "description": "poseGoalReached"
+  },
+  "poseUnavailable": "La detección de pose solo funciona en Android o iOS, con una cámara real.",
+  "@poseUnavailable": {
+    "description": "poseUnavailable"
+  },
+  "poseNeedsCamera": "Hace falta el permiso de la cámara",
+  "@poseNeedsCamera": {
+    "description": "poseNeedsCamera"
+  },
+  "poseNoCamera": "No se encontró ninguna cámara",
+  "@poseNoCamera": {
+    "description": "poseNoCamera"
+  },
+  "poseAddRep": "+1 manual",
+  "@poseAddRep": {
+    "description": "poseAddRep"
+  },
+  "poseFlipCamera": "Cambiar de cámara",
+  "@poseFlipCamera": {
+    "description": "poseFlipCamera"
+  },
+  "poseNoBody": "No te veo entero: colócate de lado y de cuerpo completo",
+  "@poseNoBody": {
+    "description": "poseNoBody"
+  },
+  "poseKneeAngle": "Rodilla: {angle}°",
+  "@poseKneeAngle": {
+    "placeholders": {
+      "angle": {
+        "type": "String"
+      }
+    },
+    "description": "poseKneeAngle"
+  },
+  "poseSaved": "Serie guardada: {reps} repeticiones",
+  "@poseSaved": {
+    "placeholders": {
+      "reps": {
+        "type": "int"
+      }
+    },
+    "description": "poseSaved"
+  },
+  "poseNothingToSave": "Todavía no hay repeticiones que guardar",
+  "@poseNothingToSave": {
+    "description": "poseNothingToSave"
+  },
+  "poseHowTo": "Apoya el móvil de lado y colócate a un par de metros, de cuerpo entero.",
+  "@poseHowTo": {
+    "description": "poseHowTo"
+  },
+  "poseError": "No se pudo iniciar la cámara",
+  "@poseError": {
+    "description": "poseError"
+  },
+  "poseExerciseSquats": "Sentadillas",
+  "@poseExerciseSquats": {
+    "description": "poseExerciseSquats"
+  },
+  "poseExerciseBurpees": "Burpees",
+  "@poseExerciseBurpees": {
+    "description": "poseExerciseBurpees"
+  },
+  "poseBurpeePhaseGround": "En suelo: ¡salto y arriba!",
+  "@poseBurpeePhaseGround": {
+    "description": "poseBurpeePhaseGround"
+  },
+  "poseBurpeePhaseStanding": "De pie: ¡al suelo para el burpee!",
+  "@poseBurpeePhaseStanding": {
+    "description": "poseBurpeePhaseStanding"
+  },
+  "poseExercisePullUps": "Dominadas",
+  "@poseExercisePullUps": {
+    "description": "poseExercisePullUps"
+  },
+  "poseElbowAngle": "Codo: {angle}°",
+  "@poseElbowAngle": {
+    "description": "poseElbowAngle",
+    "placeholders": {
+      "angle": {
+        "type": "String"
+      }
+    }
+  },
+  "poseIncompletePullUp": "Dominada incompleta (sube la barbilla)",
+  "@poseIncompletePullUp": {
+    "description": "poseIncompletePullUp"
+  },
+  "noSessions": "Todavía no hay sesiones.\nEmpieza una desde Inicio.",
+  "@noSessions": {
+    "description": "noSessions"
+  },
+  "deleteSessionTitle": "Eliminar sesión",
+  "@deleteSessionTitle": {
+    "description": "deleteSessionTitle"
+  },
+  "deleteSessionQuestion": "Se borrará la sesión del {date} con todas sus series.",
+  "@deleteSessionQuestion": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    },
+    "description": "deleteSessionQuestion"
+  },
+  "sessionDetail": "Detalle de sesión",
+  "@sessionDetail": {
+    "description": "sessionDetail"
+  },
+  "sessionWithoutSets": "Esta sesión no tiene series.",
+  "@sessionWithoutSets": {
+    "description": "sessionWithoutSets"
+  },
+  "weeklyVolume": "Volumen semanal",
+  "@weeklyVolume": {
+    "description": "weeklyVolume"
+  },
+  "weekShort": "S{week}",
+  "@weekShort": {
+    "placeholders": {
+      "week": {
+        "type": "int"
+      }
+    },
+    "description": "weekShort"
+  },
+  "setsByGroup": "Series por grupo muscular",
+  "@setsByGroup": {
+    "description": "setsByGroup"
+  },
+  "noStats": "Todavía no hay datos para las estadísticas.",
+  "@noStats": {
+    "description": "noStats"
+  },
+  "totalVolumeKg": "{kg} kg",
+  "@totalVolumeKg": {
+    "placeholders": {
+      "kg": {
+        "type": "String"
+      }
+    },
+    "description": "totalVolumeKg"
+  },
+  "themeSection": "Tema",
+  "@themeSection": {
+    "description": "themeSection"
+  },
+  "themeSystem": "Sistema",
+  "@themeSystem": {
+    "description": "themeSystem"
+  },
+  "themeLight": "Claro",
+  "@themeLight": {
+    "description": "themeLight"
+  },
+  "themeDark": "Oscuro",
+  "@themeDark": {
+    "description": "themeDark"
+  },
+  "toggleTheme": "Cambiar tema",
+  "@toggleTheme": {
+    "description": "toggleTheme"
+  },
+  "languageSection": "Idioma",
+  "@languageSection": {
+    "description": "languageSection"
+  },
+  "langSpanish": "Español",
+  "@langSpanish": {
+    "description": "langSpanish"
+  },
+  "langEnglish": "English",
+  "@langEnglish": {
+    "description": "langEnglish"
+  },
+  "permissionsSection": "Permisos",
+  "@permissionsSection": {
+    "description": "permissionsSection"
+  },
+  "permCamera": "Cámara",
+  "@permCamera": {
+    "description": "permCamera"
+  },
+  "permMicrophone": "Micrófono",
+  "@permMicrophone": {
+    "description": "permMicrophone"
+  },
+  "permGranted": "Concedido",
+  "@permGranted": {
+    "description": "permGranted"
+  },
+  "permDenied": "Denegado",
+  "@permDenied": {
+    "description": "permDenied"
+  },
+  "permAsk": "Conceder",
+  "@permAsk": {
+    "description": "permAsk"
+  },
+  "permOpenSettings": "Abrir ajustes",
+  "@permOpenSettings": {
+    "description": "permOpenSettings"
+  },
+  "permNotApplicable": "No aplica en esta plataforma",
+  "@permNotApplicable": {
+    "description": "permNotApplicable"
+  },
+  "privacySection": "Privacidad",
+  "@privacySection": {
+    "description": "privacySection"
+  },
+  "privacyTitle": "Aviso de privacidad",
+  "@privacyTitle": {
+    "description": "privacyTitle"
+  },
+  "privacyBody": "agc-gym guarda tus entrenamientos únicamente en este dispositivo, en una base de datos SQLite. La cámara se usa solo para contar repeticiones en directo: las imágenes no se graban ni se envían a ningún servidor. El micrófono se usa para reconocer órdenes de voz; el reconocimiento puede apoyarse en el servicio de voz del sistema. Puedes retirar los permisos cuando quieras desde los ajustes del dispositivo.",
+  "@privacyBody": {
+    "description": "privacyBody"
+  },
+  "arPrototype": "Marca de pies (AR)",
+  "@arPrototype": {
+    "description": "arPrototype"
+  },
+  "arTitle": "Marca de pies",
+  "@arTitle": {
+    "description": "arTitle"
+  },
+  "arSeparation": "Separación entre pies",
+  "@arSeparation": {
+    "description": "arSeparation"
+  },
+  "arFootSize": "Tamaño de las huellas",
+  "@arFootSize": {
+    "description": "arFootSize"
+  },
+  "arExplain": "Maqueta con cámara y superposición 2D: coloca los pies sobre las huellas antes de empezar la sentadilla.",
+  "@arExplain": {
+    "description": "arExplain"
+  },
+  "arCameraUnavailable": "Cámara no disponible: se muestra un fondo de prueba.",
+  "@arCameraUnavailable": {
+    "description": "arCameraUnavailable"
+  },
+  "arSeparationValue": "{cm} cm",
+  "@arSeparationValue": {
+    "placeholders": {
+      "cm": {
+        "type": "int"
+      }
+    },
+    "description": "arSeparationValue"
+  }
+}
